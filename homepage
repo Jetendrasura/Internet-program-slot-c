@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Home Page </title>
+</head>
+<map name="imap">
+<body style="background-color:lightyellow;">
+<center><h1>RAILWAY RESERVATION SYSTEM </h1></center>
+<br>
+<form action="Login.html">
+<input type="submit" value="Login">
+</form>
+<form action="RESERVATION.html">
+<input type="submit" value="Register">
+</form>
+<center><img border="0" src="IP .jpeg"  usemap="#imap" width="678" height="452"></center>
+</body>
+</html>
