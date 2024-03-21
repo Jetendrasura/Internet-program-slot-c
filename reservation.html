@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration Form</title>
+    </head>
+<body bgcolor ="Lightskyblue">
+<br>
+<br>
+
+    <form action="register.php" method="POST">
+        <label >First Name:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label >Middle Name:</label>
+        <input type="text" id="middlename" name="middlename"><br><br>
+
+        <label >Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label >STATE:</label>
+        <select name="city">
+            <option value="select">selectstate</option>
+            <option value="AP">AP</option>
+            <option value="CHENNAI">CHENNAI</option>
+            <option value="TS">TS</option>
+            <option value="MUMBAI">MUMBAI</option>
+        </select>
+<br>
+<br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"/>Male<br> 
+        
+        <input type="radio" name="gender"/>Female<br>
+        
+        <input type="radio" name="gender"/>Other<br>
+        <br>
+        <label >Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="\+?[0-9]+" required><br><br>
+
+        <label >Current Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label >Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label >Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label >Re-type Password:</label>
+        <input type="password" id="retypepassword" name="retypepassword" required><br><br>
+        <label >TRANSACTION ID </label>
+        <input type="ID" id="TSID" name="transactionid" required><br><br>
+
+        <button type="submit">SUBMIT</button>
+    </form>
+
+</body>
+</html>
